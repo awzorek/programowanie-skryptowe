@@ -1,0 +1,37 @@
+Zadanie 1.
+Napisz skrypt, który:
+a) w katalogu domowym utworzy katalog o nazwie Zad1. Następnie wejdzie do niego i w środku utworzy pliki o nazwach:
+	-  plik1
+	-  etc.txt
+	-  abc.
+b) wpisze do pliku abc zdanie "Adam Mickiewicz wielkim poetą był".
+c) zmieni uprawnienia pliku plik1 na 630.
+d) umieści w pliku etc.txt listę wszystkich plików i katalogów z katalogu /etc
+e) skopiuje abc. do katalogu domowego jako zad1.txt
+f) usunie plik1
+
+Zadanie 2.
+Napisz skrypt, który:
+a) wyświetli ilość linii i słów w pliku panTadeusz.txt
+b) wyświetli ile razy występuję słowo Litwa w różnych odmianach (Litwo, Litwa, Litwie,..)
+c) wyświetli 20 najczęściej występujących słów w tekście zaczynających się od dużej litery.
+d) wyświetli ponumerowane linie zawierające słowo Ojczyzna w różnych odmianach i zamieni wszystkie jego litery na duże
+
+Zadanie 3.
+Napisz skrypt, który wczyta plik "przykladowy_log.log" zawierający serię wpisów w formacie:
+Sep 17 03:45:41 host1.local: alice 192.168.97.181
+oraz:
+a) wyświetli na ekran komunikat w formacie:
+timestamp<timestamp>, host:<machine>, user:<user>, adres_ip:<ip>;
+b) poda ile razy dany użytkownik wystąpił w pliku
+
+Zadanie 4.
+Napisz skrypt, który przyjmując 2 parametry <nazwa_katalogu> i <raport_file>:
+a) w wskazanym katalogu znajdzie wszystkie pliki z rozszerzeniem różnym od .sh 
+b) sprawdzi czy znalezione pliki mają ustawiony atrybut "wykonywalny"
+c) jeśli znalezione pliki mają atrybut x to go usunie go
+d) stworzy raport w formacie CSV, zawierający listę znalezionych skryptów, ich rozmiar w kB, oraz zaznaczy czy plik miał ustawiony atrybut x. 
+Kolejne kolumny w raporcie: nazwa _skryptu,rozmaiar,brak_x
+e) po zapisaniu raportu wyświetli ile plików znaleziono i w ilu należało usunąć atrybut x
+
+-------
